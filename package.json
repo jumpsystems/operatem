@@ -1,6 +1,6 @@
 {
   "name": "operatem",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Simple metarepo management around git submodules",
   "type": "module",
   "bin": {
@@ -27,6 +27,14 @@
     "node": ">=18"
   },
   "keywords": ["metarepo", "git", "submodules", "cli"],
-  "author": "",
-  "license": "MIT"
+  "author": "jump.systems",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jumpsystems/operatem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jumpsystems/operatem/issues"
+  },
+  "homepage": "https://github.com/jumpsystems/operatem"
 }
