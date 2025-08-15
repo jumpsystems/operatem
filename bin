@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+ORIGINAL_CWD="$(pwd)"
+cd "$(dirname "$0")"
+ORIGINAL_CWD="$ORIGINAL_CWD" npx tsx src/cli.ts "$@"
